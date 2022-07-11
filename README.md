@@ -20,7 +20,7 @@ Sell2 is the title of our application.
 <br/>
 <li>Searching products on the website by search keyword, category, and other factors.</li>
 <br/>
-<li>Updating the user information such as name, phone number, address, and others.</li>
+<li>Updating the user information such as name, phone number, email address, and others.</li>
 <br/>
 <li>Viewing user profile information.</li>
 <br/>
@@ -28,7 +28,7 @@ Sell2 is the title of our application.
 <br/>
 <li>Selecting and viewing more details about a particular product.</li>
 <br/>
-<li>Securely Sign up and log on to the system.</li>
+<li>Securely Sign up and log in to the system.</li>
 <br/>
 <li>Getting OTPs for different flows like forgetting a password, signing up, etc.</li>
 <br/>
