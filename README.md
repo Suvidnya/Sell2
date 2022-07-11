@@ -50,7 +50,7 @@ Sell2 is the title of our application.
     <li> Clone the project from github repo </li>
     <li>run the command npm install (It will install all the dependencies)</li>
     <li> Now in order to run the application run the command "npm start"</li>
-    <li> It will be available on http://localhost:3000</li>
+    <li> It will run on http://localhost:3000</li>
     </ul>
 
 3. In order to use the application a user must create an account using iitg mail id. 
