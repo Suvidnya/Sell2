@@ -38,20 +38,25 @@ Sell2 is the title of our application.
 <hr/>
 
 1. Pre-requisites
-    1. npm 
-    2. create-react-app
-    3. node
-    4. Browser
+    <ul>
+    <li> npm </li>
+    <li> create-react-app</li>
+    <li> node</li>
+    <li> Browser</li>
+    </ul>
 
 2. Setting Up
-    1. Clone the project from github repo
-    2. run the command npm install (It will install all the dependencies)
-    3. Now in order to run the application run the command "npm start"
-    4. It will be available on http://localhost:3000
+    <ul>
+    <li> Clone the project from github repo </li>
+    <li>run the command npm install (It will install all the dependencies)</li>
+    <li> Now in order to run the application run the command "npm start"</li>
+    <li> It will be available on http://localhost:3000</li>
+    </ul>
 
 3. In order to use the application a user must create an account using iitg mail id. 
-    1. Signup using iitg mail id and verify otp.
-    2. Once the otp is verified user can login to the system and can access all the functionalities available in the system.
+    <ul>
+    <li>Signup using iitg mail id and verify otp.</li>
+    <li> Once the otp is verified user can login to the system and can access all the functionalities available in the system.</li>
 
 <h2>Logout Functionality</h2>
 <hr/>
