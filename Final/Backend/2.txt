@@ -1,1 +1,1 @@
-This folder contains all server-side code documents!
+This folder contains all server-side code files !
