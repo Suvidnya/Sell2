@@ -1,0 +1,23 @@
+.textwhite{
+    color:white;
+}
+
+.page-footer{
+    background-color: #3d3d3d;
+}
+
+.footer-copyright{
+    background-color: rgb(0, 0, 0);
+}
+
+.para{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(5, 219, 252)
+}
