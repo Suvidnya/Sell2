@@ -1,1 +1,1 @@
-This folder contains all front end code !
+This folder contains all front end code files !
