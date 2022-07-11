@@ -61,7 +61,7 @@ Sell2 is the title of our application.
 <h2>Logout Functionality</h2>
 <hr/>
 
-<p>After clicking on the logout button user will be redirected to the login page and the token at the client side will be invalidated.</p>
+<p>After clicking on the logout button user will be redirected to the login page.</p>
 
 
 
