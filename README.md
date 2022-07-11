@@ -75,8 +75,8 @@ Sell2 is the title of our application.
 <h2>🦸 Team Members Details</h2>
 <hr/>
 <ul>
-<li>Nirupama Agrahari (BackEnd + FrontEnd) Github: </li>
-<li>Shashank Mishra (BackEnd + FrontEnd) Github: </li>
+<li>Nirupama Agrahari (BackEnd + FrontEnd) Github: https://github.com/niru-0105 </li>
+<li>Shashank Mishra (BackEnd + FrontEnd) Github: https://github.com/nkshash</li>
 <li>Suvidnya Tipre (BackEnd + FrontEnd) Github: https://github.com/Suvidnya </li>
 <li>Bijirgiri Basumatary (BackEnd + FrontEnd) Github: https://github.com/bijirgiriiitg</li>
 </ul>
