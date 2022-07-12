@@ -1,16 +1,17 @@
 /* For View Others Profile------------------>>>>>>>>>>>>>>>>>>>*/
 
 
-import React, { Component } from 'react';
+import React from 'react';
 import './viewerprofile.css';
 import { Button } from 'antd';
 import { BsCheckCircleFill, BsPersonCircle } from "react-icons/bs";
 import { FaRegPaperPlane } from "react-icons/fa"
 import { RiHome2Fill } from "react-icons/ri";
 import Doll from './sliders';
+import {useNavigate} from "react-router-dom";
+function Appon(){
+  const navigate= useNavigate();
 
-class Appon extends Component {
-  render() {
     return (
       <div className="Appe">
         <div className='conta'>
@@ -40,12 +41,11 @@ class Appon extends Component {
           <Button className="btn7">View Products of the seller</Button>
 
           <div className="btn8">
-            <Button className="btn6"><RiHome2Fill className='hom' />Back to Home</Button>
+            <Button className="btn6" onClick={()=>navigate("/home")} ><RiHome2Fill className='hom' />Back to Home</Button>
           </div>
         </div>
       </div>
     );
-  }
 }
 
 export default Appon;
