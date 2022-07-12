@@ -1,0 +1,24 @@
+.ads{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ads img{
+    place-items: center;
+    width: 98%;
+    height: 200px;
+}
+
+.sellBuyBtn{
+    padding: 0px 30% 0px 30%;
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.sellBuyBtn button{
+    background-color: white;
+    padding: 8px 21px;
+    border-radius: 5px;
+}

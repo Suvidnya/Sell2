@@ -1,0 +1,436 @@
+/* For Edit Profile------------------>>>>>>>>>>>>>>>>>>>*/
+
+.Appe {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  font-family: sans-serif;
+}
+.conta{
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 15%;
+  margin-left: 5%;
+
+  
+}
+.pic{
+  margin-top: 6vw;
+}
+
+.su{
+  font-weight: bold;
+  margin-top: 3vw;
+  font-size: 20px;
+}
+.out{
+  background-color: rgb(29, 74, 198);
+  border-radius: 50%;
+  font-size: 13px;
+  color: rgb(36, 163, 222);
+  margin: 0 5px;
+}
+.o{
+  padding: 0 15px;
+}
+.su1{
+  font-weight: bold;
+  margin-top: 2vw;
+  font-size: 16px;
+  
+}
+.su2{
+  font-weight: bold;
+  margin-top: 2vw;
+  font-size: 18px;
+  text-align: center;
+
+}
+.btnn{
+  height: 3vw;
+  margin: 2vh 0;
+  border: none;
+  border-radius: 3px;
+  width: 15vw;
+  color: black;
+  cursor: pointer;
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+.tele{
+  font-size: 15px;
+  margin-right: 6%;
+  
+}
+.contain{
+  color: #fff;
+  margin-left: 5%;
+  margin-top: 4vw;
+  position: relative;
+}
+.line2{
+  border-bottom-style: solid;
+  border-bottom-color: rgb(137, 134, 134);
+  width: 60vw;
+  margin-top: 0vw;
+}
+.head{
+  text-align: left;
+  color: #fff;
+  font-size: 35px;
+}
+.head3{
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2vw;
+}
+.roll{
+  margin: 2% 0%;
+  position: absolute;
+  width: 75vw;
+}
+
+.phone{
+  display: flex;
+
+}
+.detaili{
+  margin-left: -33%;
+}
+input[type=numbe]{
+  width: 6%;
+  padding: 12px 10px;
+  margin: 8px 2px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px 0px 0 5px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+}
+.rockey{
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+
+}
+
+input[type=number] {
+  width: 60.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0 5px 5px 0px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+}
+.btn9{
+  background-color: black;
+  height: 3vw;
+  border-color: white;
+  border-radius: 3px;
+  width: 10vw;
+  cursor: pointer;
+  color: #fff;
+  margin-left: -16%;
+  font-size: 1vw;
+  margin-top: 27rem;
+  font-weight: bold;
+  margin-bottom: 4vw;
+}
+.btn10{
+  background-color: #fff;
+  height: 3vw;
+  border-radius: 3px;
+  width: 10vw;
+  border: none;
+  margin-top: 27rem;
+  cursor:pointer;
+  color: black;
+  margin-left: 50%;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-bottom: 4vw;
+}
+@media(max-width: 894px) {
+  input[type=numbe]{
+    padding: 12px 7px;
+  }
+  .tele{
+    margin: -0.5vw 0vw;
+  }
+  
+}
+@media(max-width: 755px) {
+  input[type=numbe]{
+    padding: 12px 5px;
+    font-size: 10px;
+  }
+  .btnn{
+    width: 105px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .tele{
+    margin: -0.7vw 0vw;
+  }
+}
+@media(max-width: 653px) {
+  .line2{
+    margin-top: -1vw;
+  }
+}
+@media(max-width: 562px) {
+  .conta{
+    width: 100%;
+    line-height: 7%;
+  }
+  .contain{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 75%;
+  }
+  .rockey{
+    font-size: 15px;
+  }
+  input[type=numbe]{
+    height: 1.7rem
+  }
+  input[type=text]{
+    height: 1.7rem
+  }
+  input[type=number]{
+    height: 1.7rem
+  }
+  .tele{
+    font-size: 13px;
+  }
+  .btn10{
+    width: 55px;
+    margin-left: 3%;
+    font-size: 5px;
+  }
+  .btn9{
+    width: 55px;
+    height: 13px;
+    font-size: 5px;
+  }
+  
+
+}
+@media(max-width: 522px) {
+  .conta{
+    width: 100%;
+    line-height: 7%;
+  }
+  .contain{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 85%;
+  }
+  .rockey{
+    font-size: 15px;
+  }
+  .su{
+    font-size: 15px;
+  }
+  .su1{
+    font-size: 14px;
+  }
+  .su2{
+  font-size: 15px;
+ }
+ .btnn{
+  height: 17px;
+ }
+ .rockey{
+  font-size: 13px;
+}
+.head3{
+  font-size: 16px;
+}
+.line2{
+  margin-top: 1vw;
+}
+input[type=numbe]{
+  padding: 12px 3px;
+  font-size: 9px;
+}
+
+}
+@media(max-width: 450px) {
+  .contain{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 95%;
+  }
+  .pic{
+    width: 15%;
+    margin-top: 1%;
+  }
+input[type=numbe]{
+  padding: 12px 3px;
+  font-size: 9px;
+}
+.edit{
+  position: relative;
+  top: -3%;
+}
+
+}
+@media(max-width: 415px) {
+  .contain{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 110%;
+  }
+  .pic{
+    width: 15%;
+    margin-top: 1%;
+  }
+input[type=numbe]{
+  padding: 12px 3px;
+  font-size: 7px;
+}
+.edit{
+  position: relative;
+  top: -3%;
+}
+
+}
+@media(max-width: 353px) {
+  .contain{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 120%;
+  }
+  .pic{
+    width: 15%;
+    margin-top: -5%;
+  }
+input[type=numbe]{
+  padding: 12px 2px;
+  font-size: 8px;
+}
+
+.su{
+  margin-top: -8%;
+}
+.edit{
+  position: relative;
+  top: -4.5%;
+}
+}
+@media(max-width: 319px) {
+  .contain{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 130%;
+  }
+  
+input[type=numbe]{
+  padding: 12px 2px;
+  font-size: 8px;
+}
+.btn10{
+  height: 12px;
+}
+input[type=numbe]{
+  height: 1rem
+}
+input[type=text]{
+  height: 1rem
+}
+input[type=number]{
+  height: 1rem
+}
+.edit{
+  position: relative;
+  top: -4.5%;
+}
+}
+@media(max-width: 274px) {
+  .contain{
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 140%;
+  }
+ 
+input[type=numbe]{
+  padding: 12px 2px;
+  font-size: 8px;
+}
+
+}
+@media(max-width: 252px) {
+  .contain{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 25%;
+    line-height: 2%;
+  }
+  .btn9, .btn10{
+    margin-top: 150%;
+  }
+  .edit{
+    position: relative;
+    top: -7%;
+  }
+input[type=numbe]{
+  padding: 12px 2px;
+  font-size: 8px;
+}
+
+input[type=numbe]{
+  height: 0.6rem
+}
+input[type=text]{
+  height: 0.6rem
+}
+input[type=number]{
+  height: 0.6rem
+}
+.conta{
+  min-height: 150vh;
+}
+}

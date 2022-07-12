@@ -1,0 +1,46 @@
+.secleftcolumn{
+  
+    height: 40vh;
+    margin-bottom: 10vh;
+   
+    border-radius: 10px;
+  
+}
+
+.secrightcolumn{
+
+
+    height: 40vh;
+    margin-bottom: 10vh;
+ 
+    
+   
+}
+
+
+.details{
+    background-color: #ebebeb;
+    height:100%;
+    margin:0;
+    border-radius: 10px;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    
+}
+
+.description{
+    background-color: #ebebeb;
+    height:100%;
+    border-radius: 10px;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-right: 4vw;
+}
+
+#proddesc{
+    font-weight: 700;
+}
+
+#proddetail{
+    font-weight: 700;
+}

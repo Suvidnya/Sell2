@@ -1,0 +1,38 @@
+.recomendations{
+    margin-top: 60px;
+}
+.recomendations h2{
+    color: black;
+    font-size: 24px;
+    margin-left: 1rem;
+}
+.grid{
+    padding: 0px 5% 0px 5%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.moreItems{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.moreItems button{
+    background-color: white;
+    padding: 8px 21px;
+    border-radius: 5px;
+}

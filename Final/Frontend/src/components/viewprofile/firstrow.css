@@ -1,0 +1,83 @@
+.leftcolumn{
+    background-color: black;
+    height: 87.5vh;
+    
+}
+
+.righttop{
+    height:33vh;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding-top: 4vh;
+    padding-left: 4vw;
+  
+    margin-top: 2vh;
+
+}
+
+.rightbottom{
+    height: 49.5vh;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin-top: 1vh;
+    padding-top: 4vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 3vw;
+    position: relative;
+
+}
+
+.carousel-inner{   
+    
+    height: 87vh;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.carousel-item img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+#toptext{
+   
+ 
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+#price{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0;
+    margin-top: 3.5vh;
+    margin-bottom: 3vh;
+    
+}
+
+#sellername{
+
+    line-height: 3vh;
+    
+}
+
+#posted{
+
+    line-height: 0vh;
+}
+
+
+
+.buttontext{
+    font-weight:500;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 7vh;
+    
+}
+

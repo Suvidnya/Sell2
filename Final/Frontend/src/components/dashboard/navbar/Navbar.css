@@ -1,0 +1,67 @@
+nav{
+    width: 100vw;
+    background-color: #373535;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.nav-div{
+    padding: 10px 10%;
+    margin: 0;
+}
+
+.nav-div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.inputLi{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+}
+.inputLi input{
+    
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    padding: 8px 15px;
+    
+}
+
+.inputLi img{
+    display: flex;
+    margin-left: -50px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.logo img{
+    width: 80%;
+}
+.profile-sellbtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-sellbtn a button{
+    font-size: 18px;
+    padding: 9px 30px;
+    border: 4px solid #33a9ff;
+    color: #33a9ff;
+    border-radius:40px;
+    background-color: transparent;
+}
+.profileLogo{
+    margin-left: 10%;
+    width: 30%;
+}
