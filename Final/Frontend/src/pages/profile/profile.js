@@ -1,15 +1,16 @@
 /* For User Profile------------------>>>>>>>>>>>>>>>>>>>*/
 
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import { Button } from 'antd';
 import { BsCheckCircleFill, BsPersonCircle } from "react-icons/bs";
 import { FaRegPaperPlane } from "react-icons/fa"
 import { RiHome2Fill } from "react-icons/ri";
 import Doll from "./sliders";
-
-class Profile extends Component {
-  render() {
+import {useNavigate} from "react-router-dom";
+function Profile(){
+  const navigate= useNavigate();
+  
     return (
       <div className="Appe">
         <div className='conta'>
@@ -34,21 +35,21 @@ class Profile extends Component {
             <h1 className='head'>Random Name</h1>
           </div>
           <div className="btn2">
-            <Button className="btn3">Edit Profile</Button>
+            <button className="btn3" type='button' onClick={()=>navigate("/discard")}>Edit Profile</button>
           </div>
           <div className='line'></div>
           <h3 className='head1'>Items listed by the seller:</h3>
           <Doll />
           <div className="btn5">
-            <Button className="btn4">Sell Products</Button>
+            <Button className="btn4" onClick={()=>navigate("/view")} >Sell Products</Button>
           </div>
           <div className="btn5">
-            <Button className="btn6"><RiHome2Fill className='hom' />Back to Home</Button>
+            <Button className="btn6"  onClick={()=>navigate("/home")} ><RiHome2Fill className='hom' />Back to Home</Button>
           </div>
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Profile;
