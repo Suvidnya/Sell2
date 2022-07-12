@@ -6,9 +6,9 @@ import Form from '../../components/profile/Form';
 import { Button } from 'antd';
 import { BsCheckCircleFill, BsPersonCircle } from "react-icons/bs";
 import { FaRegPaperPlane,FaEdit } from "react-icons/fa"
-
-class Appy extends Component {
-  render() {
+import {useNavigate} from "react-router-dom";
+function Appy (){
+  const navigate= useNavigate();
     return (
       <div className="Appe">
         <div className='conta'>
@@ -35,13 +35,13 @@ class Appy extends Component {
           </div>
           <div className='line2'></div>
           <Form />
-        <Button className="btn9">Discard</Button>
+        <Button className="btn9" onClick={()=>navigate("/a")}>Discard</Button>
         <Button className="btn10">Save Changes</Button>
 
         </div>
       </div>
     );
-  }
+
 }
 
 export default Appy;
