@@ -4,12 +4,12 @@ import logo from '../images/logo.png'
 import profile from '../images/profile.png'
 import search from '../images/search.png'
 import './Navbar.css'
-
+import {useNavigate} from "react-router-dom";
 
 
 
 const Navbar = (user) => {
-
+    const navigate= useNavigate();
     const context = useContext(AuthConext)
     
 
@@ -25,8 +25,8 @@ return (
                     </li>
                     <li>
                         <div className='profile-sellbtn'>
-                            <a href="/sell"><button>+Sell</button></a>
-                            <a className='profileLogo' href="/profile"><img src={profile} alt="" /></a>
+                            <a href="#" onClick={()=>navigate("/view")}><button >+Sell</button></a>
+                            <a className='profileLogo' href="#"  onClick={()=>navigate("/a")}><img src={profile} alt="" /></a>
                             <p style={{ color: 'pink' }}>hi {!user ? "login" : user.name}</p>
                         </div>
                     </li>
