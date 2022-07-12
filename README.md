@@ -1,7 +1,7 @@
 <h2>⚛️ Sell2</h2>
 <hr/>
 
-Sell2 is the title of our application. 
+<h1>Sell2 </h1>
 
 <p align="justify">Sell2 is a web platform that brings buyers and sellers of various items and properties together and the buyers can buy the 2nd hand products from sellers. For example, if a person wants to sell their bicycle, books, electronics items then they will post the advertisement with prices on Sell2. Interested users can buy that objects from them.</p> 
 
