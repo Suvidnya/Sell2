@@ -40,7 +40,7 @@ function App() {
         <Route path="login" element={<Login/>} />
         
         <Route path="/viewer" element={<Appon/>} />
-        <Route path="/" element={<Profile/>} />
+        <Route path="/edit" element={<Profile/>} />
         <Route path="/discard" element={<Appy/>} />
         
       
